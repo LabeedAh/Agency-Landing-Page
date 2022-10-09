@@ -522,6 +522,10 @@ font-size: 14px;
 font-family: 'Libre Franklin', sans-serif;
 font-weight: 800;
 }
+.footer-list {
+    color: #fff;
+    text-decoration: none;
+}
 /*===== media queries =====*/
 
 @media (max-width: 1200px) 
