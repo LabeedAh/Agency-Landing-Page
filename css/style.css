@@ -1,0 +1,1087 @@
+
+/*===========================
+1.COMMON css 
+===========================*/
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Maven Pro', sans-serif;
+    height: 100%;
+}
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img 
+{
+    max-width: 100%;
+}
+ul, ol 
+{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+a:focus,
+input:focus,
+textarea:focus,
+button:focus
+.accordion-button:focus 
+{
+    text-decoration: none;
+    outline: none;
+}
+
+/* ==== sections ====*/
+
+section 
+{
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* ==== buttons  ==== */
+
+button
+{
+    border: none;
+}
+.try-now 
+{
+    padding: 7px 40px;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color:white;
+    background: linear-gradient(to right,#511de5 0%,#4530e9 50%,#1877f7 100%); 
+    border-radius: 20px;
+    margin-left: 10px;
+    font-family: 'Libre Franklin', sans-serif;
+    }
+.campaign button
+{
+    padding: 7px 24px;
+    font-size: 14px;
+    text-transform: capitalize;
+    color:white;
+    background: linear-gradient(to right,#511de5 0%,#4530e9 50%,#1877f7 100%); 
+    border-radius: 20px;
+    margin-left: 10px;
+    font-family: 'Libre Franklin', sans-serif;
+    letter-spacing: 3px;
+    margin-top: 10px;
+}
+.learn-more button
+{
+    padding: 7px 30px;
+    font-size: 14px;
+    text-transform: capitalize;
+    color:black;
+    background-color: white; 
+    border-radius: 20px;
+    margin-left: 10px;
+    font-family: 'Libre Franklin', sans-serif;
+    letter-spacing: 3px;
+}
+.learn-more button:hover
+{
+    background-color: black;
+    color: white;
+}
+.look-more button
+{
+    padding: 6px 15px;
+    font-size: 12px;
+    text-transform: capitalize;
+    color:black;
+    background-color: #f6f6f6; 
+    border-radius: 20px;
+    font-family: 'Libre Franklin', sans-serif;
+    letter-spacing: 3px;
+}
+.look-more button:hover
+{
+    background-color:black;
+    color: #f6f6f6; 
+}
+
+/* ==== navbar  ==== */
+
+.navbar .navbar-nav .nav-item ,.login
+{
+
+    position: relative;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Libre Franklin', sans-serif;
+
+}
+.navbar-light .navbar-nav .nav-link 
+{
+    color: black;
+    padding: 0px 10px;
+}
+.nav-link:hover
+{
+    color: #511de5!important;
+    text-decoration :underline;
+    text-decoration-thickness: 2px;
+    transition: all 0.3s ease-out 0s;
+    text-underline-offset: 3px;
+}
+
+/* ==== Homepage ====*/
+
+.header 
+{
+    position: relative;
+    background-image: url(../images/home-bg.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    bottom: 0px;
+}
+.home-content
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: end;   
+}
+.home-content h1
+{
+    font-size: 54px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 900;
+}
+
+/* ==== w-section  ====*/
+
+.w-section 
+{
+    background-image: url(../images/w-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+.w-content 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.w-title 
+{
+    position: absolute;
+    font-size: 180px;
+    font-weight: 400;
+    font-style: italic;
+    font-family: 'Arizonia', cursive;
+    color: #4432e3;
+    transform: translate(-460px, -30px);
+}
+
+.w-text 
+{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Libre Franklin', sans-serif;
+    color:white;
+    margin-bottom: 0px;
+    text-align: center;
+    z-index: 10;
+}
+
+/* ==== Principle section ====*/
+
+.principle-content
+{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    padding: 40px;
+    margin-top: 80px;
+}
+.principle-text h1{
+    font-size: 45px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 900;
+}
+.product span h1
+{
+    font-size: 90px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 900;
+}
+.principle-text p
+{
+    font-size: 16px;
+    font-family: 'Maven Pro', sans-serif;
+}
+.product span h1
+{
+    text-transform: uppercase;
+    background: linear-gradient(to right,#511de5 0%,#4530e9 50%,#1877f7 100%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display:inline-block;
+}
+.product span
+{
+    font-size: 16px;
+    font-family: 'Maven Pro', sans-serif;
+    color: black;
+    font-weight: 600;
+}
+
+/* ==== logo list  ====*/
+
+.companies-logo 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+/* ==== introducing   ====*/
+
+.introducing
+{
+    background-image: url(../images/introducing-bg.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 115vh;
+}
+.ellipse-section,.introducing-text
+{
+    align-items: center;
+
+}
+.ellipse-section
+{
+    margin-top: 8rem;
+}
+.introducing-text
+{
+    margin-top: 9rem;
+}
+.introducing-text h1
+{
+    margin-top: 30px;
+    font-size: 50px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 900;
+}
+
+/* ==== efficiency  ====*/
+
+.efficiency
+{
+    margin-bottom: 20px;
+}
+.efficiency-left h1
+{
+
+    font-size: 45px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 900;
+}
+.efficiency-left  p
+{
+    font-size: 16px;
+    font-family: 'Maven Pro', sans-serif;
+}
+.icon1 h5,.icon2 h5{
+    font-size: 14px;
+    font-weight: 900;
+    margin-left: 11px;
+    margin-top: 5px;
+}
+
+.right-arrow
+{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+/* ==== feedback  ====*/
+
+.feedback-section
+{
+    background-color: #fcfcfc;
+}
+.feedback
+{
+    margin-top: 30px;
+}
+.feedback h1
+{
+    font-size: 50px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 900;
+}
+.feedback p{
+    font-size: 16px;
+    font-family: 'Maven Pro', sans-serif;
+}
+.feedback-icon h3,.feedback-icon2 h3{
+    font-size: 20px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 900;
+}
+.feedback-icon p,.feedback-icon2 p {
+    font-size: 16px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
+}
+.feedback-icon
+{
+    border-right: 1px solid #ebecf0;
+}
+
+/* ==== inspiration  ====*/
+
+.inspiration h1
+{
+    font-size: 52px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 900;
+}
+.card1
+{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    padding: 2px;
+    background-image: url(../images/quote.png);
+    background-repeat: no-repeat;
+    background-position: right top; 
+    width: 100%;
+    border-radius: 2px;
+}
+.card1 .card-title
+{
+    padding-top: 40px;
+    padding-bottom: 60px;
+} 
+.card1 .card-title h3
+{
+    font-size: 16px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 800;
+}
+.card-title h3:hover
+{
+    background: linear-gradient(to right,#511de5 0%,#4530e9 50%,#1877f7 100%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.card-img
+{
+    border-top:  1px solid #f2f2f2;
+}
+.card-img h4
+{
+    font-size: 15px;
+    font-family: 'Libre Franklin', sans-serif;
+    margin-top: 10px;
+    font-weight: 800;
+}
+.card-img p
+{
+    font-size: 15px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 500;
+}
+.card-section:hover .card1
+{
+    filter:blur(2px);
+    opacity:.6;
+}
+.card-section:hover .card1:hover
+{
+    transform:scale(1);
+    filter:blur(0px);
+    opacity:1;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+/* ==== questions  ====*/
+
+.accordion-card 
+{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 45px;
+    margin: 2rem 0rem ;
+    background-color: white;
+}
+.footer-start 
+{
+    position: absolute;
+    z-index: 99; 
+    left: 9%;
+   right: 9%;
+}
+.question-text 
+{
+    font-size: 54px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 30px;
+}
+.accordion-question
+{
+    margin-top: 46px;
+}
+.accordion-item:focus
+{
+    display: none;
+}
+.accordion-heading
+{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 19px;
+    font-weight: 800;
+    background: linear-gradient(to right,#511de5 0%,#4530e9 50%,#1877f7 100%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.accordion-button
+{
+    border: none;
+    background-color: white;
+}
+.accordion-button:not(.collapsed)
+{
+    color: #0c63e4;
+    background-color:white;
+    box-shadow: none;
+}
+.accordion-button::after 
+{
+    flex-shrink: 0;
+    width: 0rem;
+}
+.accordion-body 
+{
+    padding-left: 18px;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 0px!important;
+}
+.accordion-body p
+{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+}
+.accordion-item
+{
+    border: none;
+    padding: 5px;
+}
+
+/* ==== footer  ====*/
+
+.main-footer
+{
+width: 100%;
+height: 580px;
+background-image: url(../images/footer.svg);
+background-size: cover;
+background-repeat: no-repeat;
+top: 50%;
+position: relative;
+}
+
+.list-items li{
+text-decoration: none;
+color:white;
+font-family: 'Libre Franklin', sans-serif;
+font-weight: 800;
+font-size: 13px;
+list-style-type: none;
+bottom: 0!important;
+padding: 0px 7px;
+}
+.theme p{
+color:white;
+font-size: 14px;
+font-family: 'Libre Franklin', sans-serif;
+font-weight: 800;
+}
+/*===== media queries =====*/
+
+@media (max-width: 1200px) 
+{
+ .header {
+    height: 107vh;
+} 
+.introducing
+{
+    height: 115vh;
+}
+.ellipse-section
+{
+    margin-top: 6rem;
+}
+.introducing-text
+{
+    margin-top: 7rem;
+}
+}
+ @media only screen and (min-width: 1099px) and (max-width: 1199px) 
+{
+ .header 
+{
+    height:95vh;
+} 
+
+.ellipse-section
+{
+    margin-top: 6rem;
+}
+.introducing-text
+{
+    margin-top: 7rem;
+}
+} 
+@media only screen and (min-width: 992px) and (max-width: 1098px) 
+{
+
+ .header 
+{
+    height: 91vh;
+} 
+.w-title 
+{
+    left: -10px;
+}
+.ellipse-section
+{
+    margin-top: 7rem;
+}
+.introducing-text
+{
+    margin-top: 6rem;
+}
+}
+@media (max-width: 991px) 
+{
+.header 
+{
+    height: 87vh;
+} 
+.home-content h1
+{
+    font-size: 50px;
+}
+.w-text 
+{
+    font-size: 25px;
+}
+.w-title 
+{
+    font-size: 140px;
+    transform: translate(-390px, -30px);
+}
+.principle-text h1
+{
+    font-size: 42px;
+}
+.product span h1
+{
+    font-size: 70px;
+}
+.ellipse-section, .introducing-text
+{
+    padding-top: 0px;
+}
+.introducing
+{
+    height: 165vh;
+}
+.ellipse-section
+{
+    margin-top: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.introducing-text
+{
+    margin-top: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.learn-more
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.introducing-text h1
+{
+    margin-top: 0px;
+    font-size: 40px;
+} 
+.efficiency-left h1
+{
+    font-size: 42px;
+}
+.feedback h1
+{
+    font-size: 45px;
+}
+.inspiration h1,.question-text
+{
+    font-size: 47px;
+}
+.feedback-icon,.feedback-icon
+{
+    border-right: none;
+}
+/* .footer-start {
+    transform: translate(-9%, 0px);
+} */
+    .main-footer
+{
+    top: 40%;
+}
+}
+@media (max-width:850px) 
+{
+.main-footer
+{
+top: 45%;
+}
+}
+@media (max-width:768px) 
+{
+ .header {
+    height: 72vh;
+} 
+.principle-text h1 br 
+{
+    display: none;
+}
+.home-content h1
+{
+    font-size: 37px;
+}
+.w-text 
+{
+    font-size: 19px;
+}
+.w-title 
+{
+    font-size: 120px;
+    transform: translate(-300px, -30px);
+}
+.principle-text h1
+{
+    font-size: 38px;
+}
+.product span h1
+{
+    font-size: 60px;
+}
+.principle-content
+{
+    padding: 30px;
+}
+.introducing
+{
+    height: 160vh;
+}
+.ellipse-section
+{
+    margin-top: 7rem;
+}
+.ellipse-section,.introducing-text,.learn-more
+{
+    text-align: center;
+}
+.introducing-text h1
+{
+    margin: 0px!important;
+} 
+.feedback-icon1,.feedback-icon2
+{
+    border-right: none;
+}
+.efficiency-left h1
+{
+    font-size: 38px;
+}
+.feedback h1,.inspiration h1,.question-text,.introducing-text h1
+{
+    font-size: 40px;
+}
+.main-footer
+{
+top: 50%;
+}
+}
+@media (max-width:640px)
+{
+ .header
+{
+    height: 61vh;
+} 
+section 
+{
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+.home-content h1
+{
+    font-size: 28px;
+}
+.product span h1
+{
+    font-size: 70px;
+}
+.w-text 
+{
+    font-size: 18px;
+}
+.w-title 
+{
+    font-size: 100px;
+    transform: translate(-270px, -30px);
+}
+.principle-text h1
+{
+    font-size: 34px;
+}
+.principle-content
+{
+    padding: 30px;
+}
+.introducing-text,.introducing-text h1
+{
+    margin-top: 0px!important;
+}
+ 
+.efficiency-left h1
+{
+    font-size: 33px;
+}
+.feedback h1,.inspiration h1,.question-text,.introducing-text h1
+{
+    font-size: 35px;
+}
+.accordion-question
+{
+    margin-top: 30px;
+}
+.accordion-heading
+{
+    font-size: 17px;
+}
+.accordion-body 
+{
+    font-size: 14px;
+}
+ .ellipse-section
+{
+    margin-top: 9rem;
+}
+
+}
+@media (max-width:576px)
+{
+.header
+{
+height: 54vh;
+} 
+section 
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.home-content h1
+{
+    font-size: 25px;
+}
+.w-text 
+{
+    font-size: 17px;
+}
+.w-title 
+{
+    font-size: 80px;
+    transform: translate(-240px, -30px);
+}
+.product span h1
+{
+    font-size: 70px;
+}
+.principle-text h1
+{
+    font-size: 32px;
+}
+.principle-content
+{
+    padding: 30px;
+}
+.inspiration h1,.question-text,.feedback h1,.efficiency-left h1,.introducing-text h1
+{
+    font-size: 30px;
+}
+.campaign button
+{
+    padding: 7px 20px;
+    font-size: 13px;
+    margin-left: 5px;
+    letter-spacing: 2px;
+}
+.look-more button
+{
+    padding: 6px 15px;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+.question-content
+{
+    padding: 20px;
+    transform: translate(-3% , -0%);
+}
+.accordion-card 
+{
+    margin: 2rem 0rem ;
+    padding-bottom: 10px;
+}
+.main-footer
+{
+    top: 40%;
+}
+}
+@media (max-width:540px)
+{
+.header 
+{
+    height: 320px;
+}
+section
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.home-content h1
+{
+    font-size: 26px;
+}
+.w-text
+{
+    font-size: 16px;
+}
+.w-title 
+{
+    font-size: 80px;
+    transform: translate(-220px, -20px);
+}
+.product span h1
+{
+    font-size: 60px;
+}
+.principle-content
+{
+    padding: 30px;
+}
+ .introducing
+{
+    height: 150vh;
+}
+.ellipse-section
+{
+    margin-top: 8rem;
+} 
+.introducing-text h1
+{
+    font-size: 29px;
+    margin-top: 0px!important;
+} 
+.feedback h1,.inspiration h1,.question-text,.efficiency-left h1,.principle-text h1
+{
+    font-size: 27px;
+}
+.accordion-card 
+{
+    padding: 10px;
+    margin-top: 1rem ,0rem;
+}
+.list-items li
+{
+    font-size: 12px;
+}
+.theme p
+{
+    font-size: 13px;
+}
+}
+@media (max-width:480px)
+{
+.header 
+{
+height: 43vh;
+} 
+.home-content h1
+{
+    font-size: 23px;
+}
+.home-content h1 br
+{
+    display: none;
+}
+.w-text,.product span,.icon1 h5,.icon2 h5,.feedback p
+{
+    font-size: 13px;
+}  
+.w-title {
+    font-size: 55px;
+    transform: translate(-185px, -14px);
+}
+.principle-content
+{
+    margin-top: 13px!important;
+}
+.principle-text p,.feedback-icon p,.feedback-icon2 p 
+{
+    font-size: 14px;
+}
+.product span h1
+{
+    font-size: 40px;
+}
+.principle-content
+{
+    padding: 20px;
+}
+.introducing-text h1,.efficiency-left h1,.feedback h1,.inspiration h1,.question-text,.principle-text h1
+{
+    font-size: 25px;
+}
+.efficiency-left  p
+{
+    font-size: 14px;
+}
+.feedback p br
+{
+    display: none;
+}
+.feedback-icon h3,.feedback-icon2 h3
+{
+    font-size: 18px;
+}
+ .ellipse-section
+{
+    margin-top: 10rem;
+} 
+.main-footer
+{
+top: 50%;
+}
+}
+
+@media (max-width:380px)
+{
+.header 
+{
+    height: 35vh;
+} 
+.home-content h1
+{
+    font-size: 20px;
+}
+.w-text,.principle-text p 
+{
+    font-size: 14px;
+}
+.w-text br 
+{
+    display: none;
+}
+.w-title 
+{
+    font-size: 40px;
+    transform: translate(-165px, -18px);
+}
+.product span h1
+{
+    font-size: 35px;
+}
+.efficiency-left h1,.feedback h1,.inspiration h1,.question-text,.introducing-text h1,.principle-text h1
+{
+    font-size: 22px;
+}
+.introducing
+{
+    height: 145vh;
+}
+.ellipse-section
+{
+    margin-top: 10rem;
+} 
+.navbar-toggler 
+{
+    padding: .0rem .40rem; 
+    font-size: 1rem;
+    border-radius: .15rem;
+}
+}
+@media (max-width:350px)
+{
+ .header 
+{
+    height: 32vh;
+} 
+.home-content h1
+{
+    font-size: 18px;
+}
+.w-text,.principle-text p
+{
+    font-size: 14px;
+}
+.w-text br 
+{
+    display: none;
+}
+.w-title 
+{
+    font-size: 35px;
+    transform: translate(-145px, -18px);
+}
+.product span h1
+{
+    font-size: 35px;
+}
+.inspiration h1,.question-text,.feedback h1,.efficiency-left h1,.introducing-text h1,.principle-text h1
+{
+    font-size: 22px;
+} 
+.main-footer
+{
+top: 60%;
+}
+.introducing
+{
+    height: 140vh;
+}
+} 
